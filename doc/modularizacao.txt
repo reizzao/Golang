@@ -4,5 +4,7 @@ importar_dentro_do_mesmo_pacote: variaveis dentro do mesmo package nao precisa d
 
 importar_fora_do_pacote: tem que importar enderecoModuloPai/pacote este ultimo endereco do pacote será o objeto -> chamamos ele no codigo e .acessamos a VariavelPublica
 
-
+organizacao
+nivel_1_de_pastas: 1 pasta por projeto, cada aplicacao pode ter varios projeto
+nivel_projeto: dentro do projeto pastas de cada pacote que pode ter uma entidade participante do projeto ex: no projeto internal tera entidade / tester / exemplo
 
