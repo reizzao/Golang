@@ -12,3 +12,7 @@ func PessoaReinaldo() entity.Pessoa {
 	}
 	return reinaldo
 }
+
+func AndouReinaldo() string {
+	return PessoaReinaldo().Andou()
+}

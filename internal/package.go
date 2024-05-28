@@ -9,4 +9,5 @@ import (
 func MainPackageInternal() {
 	// fmt.Println(hardcode.HardcodeSoma())
 	fmt.Println(hardcode.PessoaReinaldo())
+	fmt.Println(hardcode.AndouReinaldo())
 }
