@@ -1,0 +1,4 @@
+
+comandos_test:
+- especifico: go test <ENDERECO DO ARQUIVO>
+- na_pasta: obs: vá pelo terminal até a pasta do arquivo e test e rode: go test

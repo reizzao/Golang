@@ -1,0 +1,21 @@
+- iniciar modulo do projeto: go mod init github.com/repositorio/aplicacaoNova
+
+- tipagens: uma funcao tem sempre que dizer o Tipo que vai retornar, se for mais que 1 tipo coloque entre parenteses.
+
+- operadores : https://www.geeksforgeeks.org/go-operators/
+
+- convencao: nome pastas : minusculo - separacao nome compostos por handerline -
+
+- Modulacoes: variaveis de mesmo pacote nao precisa importar
+
+- acessar_variaveis_entre_arquivos : para acessar variaveis em outros arquivos coloque-a dentro de uma funcaoPublica e acesse fora, Porque: variaveis soltas em arquivos : voce nao consegue acessar em outros arquivos.
+
+- erros_go: [
+  - na funcao a ser testada sinalizo dentro de parenteses que vai ter 2 tipos de retorno ( oTipoDoResultadoOK, error )
+  * na variavel res de resultado digo que ela vai ser a operacao desejada para OK ,
+  * avalio com condicional se o res terá tal regra { por consequencia retornara o 1º valor vazio default, e o objeto erro com feedback que desejar}
+  * caso contrario retornara o meu resultado OK da operacao definida.
+  - no uso dessa funcao atribuo seu resultado a 2 variaveis res, err := executoAFuncao
+  * avalio se a var de err for diferente de nulo { faço algo pra mostrar o erro que veio }
+  caso contrario posso usar a var resultado que terá o que defini para ser o resultado ok.
+]
