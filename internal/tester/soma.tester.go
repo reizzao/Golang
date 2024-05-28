@@ -3,7 +3,7 @@ package tester
 import (
 	"fmt"
 
-	"github.com/rzjprogramador/base_golang/example"
+	"github.com/rzjprogramador/base_golang/internal/example"
 )
 
 func TesterSoma() {
