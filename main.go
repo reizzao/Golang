@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/rzjprogramador/base_golang/internal/tester"
+	"github.com/rzjprogramador/base_golang/internal/hardcode"
 )
 
 func main() {
 	fmt.Println("Estou no Main Root inicial")
-	tester.TesterSoma()
+	hardcode.HardcodeSoma()
 }
