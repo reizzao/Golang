@@ -6,6 +6,8 @@ dependencias:
 atualizar_dependencias_externas: go mod download
 atualizar_dependencias_internas: go mod tidy
 
+implementacoes :
+rodar_arquivo_no_console : go run ARQUIVO.go
 
 comandos_test:
 - especifico: go test <ENDERECO DO ARQUIVO>
