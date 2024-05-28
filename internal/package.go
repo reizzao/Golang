@@ -6,6 +6,7 @@ import (
 	"github.com/rzjprogramador/base_golang/internal/hardcode"
 )
 
-func MainPackageInternal () {
-	fmt.Println(hardcode.HardcodeSoma())
+func MainPackageInternal() {
+	// fmt.Println(hardcode.HardcodeSoma())
+	fmt.Println(hardcode.PessoaReinaldo())
 }
