@@ -1,0 +1,6 @@
+retorna_template_string: return fmt.Sprintf( TEXTO_INTERPOLADO )
+
+retornar_string_formatada:
+ variavel_string_para_texto: %s
+ variavel_string_para_numero: %d
+

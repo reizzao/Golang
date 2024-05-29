@@ -1,4 +1,4 @@
-package entity_func
+package helpers
 
 import (
 	"errors"
