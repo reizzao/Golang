@@ -7,13 +7,13 @@ import (
 )
 
 var reinaldo = Pessoa{
-	ID:      "1",
-	Nome:    "Reinaldo",
+	ID:   "1",
+	Nome: "Reinaldo",
+	// Veiculo: moto.MotoBmw1,
 	Veiculo: moto.MotoBmw1,
 }
 
 func HardMethodsPessoa() {
 	// fmt.Println(reinaldo.Andou())
-	// fmt.Println(reinaldo.Veiculo.buzina()) // TODO
-	fmt.Println(reinaldo.Veiculo) // TODO
+	fmt.Println(reinaldo.Veiculo.buzina()) // TODO
 }

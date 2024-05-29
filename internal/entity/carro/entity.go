@@ -9,8 +9,8 @@ type Carro struct {
 	Ano        int
 }
 
-func (c Carro) buzina() string {
-	return fmt.Sprint("%s buzinou...", c.ID)
+func (c *Carro) buzina() string {
+	return fmt.Sprint("%s buzinou com o CARRO ...", &c.ID)
 }
 
 func CreateCarro(c Carro) Carro {
