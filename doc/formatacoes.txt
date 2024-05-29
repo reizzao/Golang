@@ -1,6 +1,9 @@
 retorna_template_string: return fmt.Sprintf( TEXTO_INTERPOLADO )
-
+---
 retornar_string_formatada:
- variavel_string_para_texto: %s
- variavel_string_para_numero: %d
-
+conceito: a maioria das letras após a % quer dizer a primeira letra do tipo que sera usado.
+para_substituir_string : %s
+para_substituir_numero_inteiro : %d
+para_substituir_numero_float : %f
+para_substituir_boleano : %b
+---

@@ -1,0 +1,12 @@
+# Metodos
+
+# Metodos primitivos da linguagem
+conceito: em go os tipos primitivos nao tem metodos prototipos por padrao, tem algumas funcoes prontas imitando estes metodos e podemos criar as nossas.
+
+- ler tamanho de string : funcao >> len( stringAlvo )
+
+---
+
+# Metodos Personal para criar em Nossos Novos tipos
+
+- metodo_prototype : Em golang fazemos uma funcao normal e antes do nome da funcao entre parenteses referenciamos a variavel que sera o this ao ponteiro da struct, exemplo func (e *Entidade) fazAlgo() { return fmt.Sprintf("O %s fez algo", e.Name)}
