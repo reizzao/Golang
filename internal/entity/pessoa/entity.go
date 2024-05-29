@@ -3,13 +3,15 @@ package pessoa
 import (
 	"fmt"
 
-	"github.com/rzjprogramador/base_golang/internal/contract"
+	"github.com/rzjprogramador/base_golang/internal/entity/veiculo"
 )
 
 type Pessoa struct {
 	ID      string
 	Nome    string
-	Veiculo contract.Veiculo
+	Veiculo veiculo.Veiculo
+	// Veiculo carro.Carro | moto.Moto
+	// Veiculo contract.Veiculo
 	// Carro carro.Carro
 }
 

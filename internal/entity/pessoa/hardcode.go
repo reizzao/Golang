@@ -3,17 +3,17 @@ package pessoa
 import (
 	"fmt"
 
-	"github.com/rzjprogramador/base_golang/internal/entity/moto"
+	"github.com/rzjprogramador/base_golang/internal/entity/veiculo"
 )
 
 var reinaldo = Pessoa{
-	ID:   "1",
-	Nome: "Reinaldo",
-	// Veiculo: moto.MotoBmw1,
-	Veiculo: moto.MotoBmw1,
+	ID:      "1",
+	Nome:    "Reinaldo",
+	Veiculo: &veiculo.MotoBmw1,
 }
 
 func HardMethodsPessoa() {
-	// fmt.Println(reinaldo.Andou())
-	fmt.Println(reinaldo.Veiculo.buzina()) // TODO
+	fmt.Println(reinaldo.Andou())
+	fmt.Println(reinaldo.Veiculo.MotoBmw1.buzina()) // TODO
+	// fmt.Println(reinaldo.Veiculo.buzina()) // TODO
 }
