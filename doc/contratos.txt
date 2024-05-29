@@ -2,4 +2,6 @@ interface: para dizer que um campo de obj pode ser uma coisa ou outra (ex: Pesso
 
 e cada estrutura que vai querer ser contrato tera que implementar TER o metodo deste contrato/interface
 
+Nome_de_metodos: importante para o metodo ser publico na interface inicie tambem o nome do metodo com LetraMaiuscula #naoErre
+
 ---
