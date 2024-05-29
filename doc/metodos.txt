@@ -10,3 +10,5 @@ conceito: em go os tipos primitivos nao tem metodos prototipos por padrao, tem a
 # Metodos Personal para criar em Nossos Novos tipos
 
 - metodo_prototype : Em golang fazemos uma funcao normal e antes do nome da funcao entre parenteses referenciamos a variavel que sera o this ao ponteiro da struct, exemplo func (e *Entidade) fazAlgo() { return fmt.Sprintf("O %s fez algo", e.Name)}
+
+- ponteiro_polo_unico_informacao_metodos: se o meu tipo for uam referencia_de_memoria Ponteiro - o que eu mudar nos campos dentro deste escopo mudara na memoria e sera o valor pra sempre polo unico deste campo mudado.

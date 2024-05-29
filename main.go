@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/rzjprogramador/base_golang/internal/entity/carro"
 	"github.com/rzjprogramador/base_golang/internal/entity/pessoa"
+	// "github.com/rzjprogramador/base_golang/internal/entity/carro"
+	// "github.com/rzjprogramador/base_golang/internal/entity/moto"
 )
 
 func main() {
@@ -12,6 +13,7 @@ func main() {
 	// internal.MainPackageInternal()
 
 	// Testers Entitys
-	carro.HardMethodsCarro()
 	pessoa.HardMethodsPessoa()
+	// carro.HardMethodsCarro()
+	// moto.HardMethodsMoto()
 }

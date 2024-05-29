@@ -1,0 +1,5 @@
+interface: para dizer que um campo de obj pode ser uma coisa ou outra (ex: Pessoa ter um campo Veiculo<Este podendo ser Carro ou Moto>) tem que fazer uma interface com o contrato/interface de um metodo.
+
+e cada estrutura que vai querer ser contrato tera que implementar TER o metodo deste contrato/interface
+
+---

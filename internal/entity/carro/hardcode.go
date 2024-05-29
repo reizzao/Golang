@@ -2,7 +2,7 @@ package carro
 
 import "fmt"
 
-var Bmw1 = Carro{
+var CarBmw1 = Carro{
 	ID:         "bmw1",
 	Fabricante: "Bmw",
 	Modelo:     "Modelo BMW",
@@ -10,5 +10,5 @@ var Bmw1 = Carro{
 }
 
 func HardMethodsCarro() {
-	fmt.Println(CreateCarro(Bmw1))
+	fmt.Println(CreateCarro(CarBmw1))
 }
