@@ -1,10 +1,11 @@
 
+criar_modularizacao: go mod github.com/rzjprogramador/minhaLib
 producao:
 criar_binario_de_distribuicao: go build
 
 dependencias:
-atualizar_dependencias_externas: go mod download
-atualizar_dependencias_internas: go mod tidy
+atualizar_dependencias_externas: go mod tidy
+atualizar_dependencias_baixadas: go mod download
 
 implementacoes :
 rodar_arquivo_no_console : go run ARQUIVO.go
