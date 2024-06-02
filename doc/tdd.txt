@@ -1,0 +1,3 @@
+
+# implementando tests
+- comparar 2 variaveis - e lancar um error caso de um resultado inesperado.

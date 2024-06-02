@@ -6,20 +6,20 @@ import (
 	"github.com/rzjprogramador/base_golang/internal/entity/veiculo"
 )
 
-var reinaldo = Pessoa{
+var Pessoa1 = Pessoa{
 	ID:      "1",
 	Nome:    "Reinaldo",
 	Veiculo: &veiculo.Moto1,
 }
 
-var gabriel = Pessoa{
+var Pessoa2 = Pessoa{
 	ID:      "2",
 	Nome:    "Gabriel",
 	Veiculo: &veiculo.Carro1,
 }
 
 func HardMethodsPessoa() {
-	fmt.Println(reinaldo.Andou())
-	fmt.Println(reinaldo.Veiculo.Buzina())
-	fmt.Println(gabriel.Veiculo.Buzina())
+	fmt.Println(Pessoa1.Andou())
+	fmt.Println(Pessoa1.Veiculo.Buzina())
+	fmt.Println(Pessoa2.Veiculo.Buzina())
 }
