@@ -7,5 +7,10 @@ import (
 type Pessoa struct {
 	ID      string
 	Nome    string
-	Veiculo veiculo.Veiculo
+	Sobrenome string
+	Veiculo veiculo.IVeiculo
+}
+
+type IPessoa interface {
+	NomeCompleto() string
 }

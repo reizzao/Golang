@@ -1,5 +1,5 @@
 package veiculo
 
-type Veiculo interface {
+type IVeiculo interface {
 	Buzina() string
 }

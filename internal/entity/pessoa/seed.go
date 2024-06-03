@@ -1,25 +1,23 @@
 package pessoa
 
 import (
-	"fmt"
-
 	"github.com/rzjprogramador/base_golang/internal/entity/veiculo"
 )
 
-var Pessoa1 = Pessoa{
-	ID:      "1",
-	Nome:    "Reinaldo",
-	Veiculo: &veiculo.Moto1,
+var Pessoa1Seed = Pessoa{
+	ID:        "1",
+	Nome:      "Reinaldo",
+	Sobrenome: "Z. Junior",
+	Veiculo:   &veiculo.Moto1Seed,
 }
 
-var Pessoa2 = Pessoa{
-	ID:      "2",
-	Nome:    "Gabriel",
-	Veiculo: &veiculo.Carro1,
+var Pessoa2Seed = Pessoa{
+	ID:        "2",
+	Nome:      "Gabriel",
+	Sobrenome: "Z. Junior",
+	Veiculo:   &veiculo.Carro1Seed,
 }
 
-func HardMethodsPessoa() {
-	fmt.Println(Pessoa1.Andou())
-	fmt.Println(Pessoa1.Veiculo.Buzina())
-	fmt.Println(Pessoa2.Veiculo.Buzina())
-}
+// fmt.Println(Pessoa1Seed.Andou())
+// fmt.Println(Pessoa1Seed.Veiculo.Buzina())
+// fmt.Println(Pessoa2Seed.Veiculo.Buzina())
