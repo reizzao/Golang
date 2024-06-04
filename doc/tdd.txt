@@ -1,3 +1,6 @@
 
 # implementando tests
 - comparar 2 variaveis - e lancar um error caso de um resultado inesperado.
+
+# erros
+recuperando_string_lancada_de_erro: de uma variavel que retorna o tipo erro posso desencadear a funcao : .Error() que vai retornar a string de erro lançada.
