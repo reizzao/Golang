@@ -1,7 +1,7 @@
 package helper
 
 import (
-	"github.com/rzjprogramador/Libs_Rzj/Go_Libs/soma"
+	"github.com/rzjprogramador/RzLibs_GO/soma"
 )
 
 // POLO_UNICO : REPASSA AS LIBS IMPORTADAS : Rzj_Libs
