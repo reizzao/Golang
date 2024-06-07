@@ -2,6 +2,7 @@ package pessoa
 
 import (
 	"github.com/rzjprogramador/base_golang/internal/entity/veiculo"
+	"github.com/rzjprogramador/base_golang/internal/helper"
 )
 
 var Pessoa1Seed = Pessoa{
@@ -16,6 +17,11 @@ var Pessoa2Seed = Pessoa{
 	Nome:      "Gabriel",
 	Sobrenome: "Z. Junior",
 	Veiculo:   &veiculo.Carro1Seed,
+}
+
+func TesterSeedPessoa1() any {
+	obj := helper.UseConvertObjectInJson(Pessoa1Seed)
+	return obj
 }
 
 // fmt.Println(Pessoa1Seed.Andou())

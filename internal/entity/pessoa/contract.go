@@ -5,10 +5,10 @@ import (
 )
 
 type Pessoa struct {
-	ID      string
-	Nome    string
-	Sobrenome string
-	Veiculo veiculo.IVeiculo
+	ID        string           `json: id`
+	Nome      string           `json: nome`
+	Sobrenome string           `json: sobrenome`
+	Veiculo   veiculo.IVeiculo `json: veiculo`
 }
 
 type IPessoa interface {
