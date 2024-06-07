@@ -7,6 +7,7 @@ dependencias:
 atualizar_dependencias_externas: go mod tidy
 atualizar_dependencias_baixadas: go mod download
 
+
 implementacoes :
 rodar_arquivo_no_console : go run ARQUIVO.go
 
@@ -14,3 +15,10 @@ comandos_test:
 - rodar todos etsts apartir da raiz : go test ./...
 - especifico: go test <ENDERECO DO ARQUIVO>
 - na_pasta: obs: vá pelo terminal até a pasta do arquivo e test e rode: go test
+
+Limpar_cache_antes_de_importacoes: #use os 3 comandos para limpeza - resolve pacotes nao encontrados pelo go get :
+go clean -cache
+go clean -modcache
+export GOPROXY=direct
+
+baixar_pacote_github: go get <ENDERECO_PACOTE>

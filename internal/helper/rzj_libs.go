@@ -12,5 +12,6 @@ func UseSoma(x int, y int) (int, error) {
 }
 
 func UseConvertObjectInJson(obj any) string {
-	return convert.ConvertObjectInJson(obj)
+	res := convert.ConvertObjectInJson(obj)
+	return res
 }
