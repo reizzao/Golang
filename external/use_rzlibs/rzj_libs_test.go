@@ -1,4 +1,4 @@
-package helper
+package use_rzlibs
 
 import (
 	"testing"

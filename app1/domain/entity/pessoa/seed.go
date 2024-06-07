@@ -1,8 +1,8 @@
 package pessoa
 
 import (
-	"github.com/rzjprogramador/base_golang/internal/entity/veiculo"
-	"github.com/rzjprogramador/base_golang/internal/helper"
+	"github.com/rzjprogramador/base_golang/app1/domain/entity/veiculo"
+	"github.com/rzjprogramador/base_golang/external/use_rzlibs"
 )
 
 var Pessoa1Seed = Pessoa{
@@ -20,7 +20,7 @@ var Pessoa2Seed = Pessoa{
 }
 
 func TesterSeedPessoa1() any {
-	obj := helper.UseConvertObjectInJson(Pessoa1Seed)
+	obj := use_rzlibs.UseConvertObjectInJson(Pessoa1Seed)
 	return obj
 }
 

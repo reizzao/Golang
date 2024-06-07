@@ -1,7 +1,7 @@
 package pessoa
 
 import (
-	"github.com/rzjprogramador/base_golang/internal/entity/veiculo"
+	"github.com/rzjprogramador/base_golang/app1/domain/entity/veiculo"
 )
 
 type Pessoa struct {
