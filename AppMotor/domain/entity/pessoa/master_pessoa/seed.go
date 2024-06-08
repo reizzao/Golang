@@ -1,4 +1,5 @@
-package pessoa
+package master_pessoa
+
 
 import (
 	"github.com/rzjprogramador/base_golang/AppMotor/domain/entity/veiculo"
