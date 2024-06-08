@@ -16,7 +16,7 @@
 variáveis_e_objeto : substantivo,
 array : substantivo no plural do que agrupa
 função: verbo_Imperativo+Substantivo,  pense: QUANDO FOR CHAMADA ELA VAI ???... a resposta sera o nome um verboImperativo: exemplo : somar(), calcular(), reduzir(),
-tutorial : https://fb.watch/nfhSF12MzR/?mibextid=Nif5oz
+tutorial : https:/fb.watch/nfhSF12MzR/?mibextid=Nif5oz
 
 > nomeacao:
   1. nome_arquivo: SnackCase : porque pode ser o nome do artefato principal dele
@@ -29,7 +29,7 @@ tutorial : https://fb.watch/nfhSF12MzR/?mibextid=Nif5oz
 3. imperativo: um legado verboso que diz como fazer passo a passo,
 4.
 5. declarativa: é moderno usa -se funções prontas da linguagem que já abstrairam e encapsularam o legado imperativo..
-6. tutoriais : https://youtube.com/shorts/WCpIbFOs0VQ?si=spr_LHkG49JNS1tS
+6. tutoriais : https:/youtube.com/shorts/WCpIbFOs0VQ?si=spr_LHkG49JNS1tS
 
 codificacao_conforme_comunicacao_IO_de_entrada_e_saida_do_dado:
 possíveis: [ code_Interno_Memoria_IO, code_Externo_Servidor_IO ],

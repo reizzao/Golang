@@ -1,8 +1,7 @@
 package master_pessoa
 
-
 import (
-	"github.com/rzjprogramador/base_golang/AppMotor/domain/entity/veiculo"
+	"github.com/rzjprogramador/base_golang/AppMotor/domain/pessoa/tools_pessoa/veiculo"
 )
 
 var Pessoa1Seed = Pessoa{

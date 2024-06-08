@@ -1,10 +1,9 @@
 package by_client
 
 import (
-	"github.com/rzjprogramador/base_golang/AppMotor/domain/entity/pessoa/components_pessoa"
-	"github.com/rzjprogramador/base_golang/AppMotor/domain/entity/product/use_product"
+	"github.com/rzjprogramador/base_golang/AppMotor/domain/pessoa/components_pessoa"
+	"github.com/rzjprogramador/base_golang/AppMotor/domain/product/use_product"
 )
-
 
 type Viajem struct {
 	Embarque          EmbarqueDesembarque

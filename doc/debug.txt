@@ -1,6 +1,6 @@
 
 - No go só consigo ver console ou dar debugger no arquivo main e no que esta dentro da funcao main.
-tutorial: by HunCoding  https://www.youtube.com/watch?v=R4bORQ_yFeM
+tutorial: by HunCoding  https:/www.youtube.com/watch?v=R4bORQ_yFeM
 
 
 

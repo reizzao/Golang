@@ -20,6 +20,6 @@ Limpar_cache_antes_de_importacoes: #use os 3 comandos para limpeza - resolve pac
 go clean -cache
 go clean -modcache
 export GOPROXY=direct
-tutorial: (para modulos nao encontrados :)[https://forum.golangbridge.org/t/problem-with-go-get-module-found-but-does-not-contain-package/35288]
+tutorial: (para modulos nao encontrados :)[https:/forum.golangbridge.org/t/problem-with-go-get-module-found-but-does-not-contain-package/35288]
 
 baixar_pacote_github: go get <ENDERECO_PACOTE>

@@ -2,7 +2,7 @@
 
 - tipagens: uma funcao tem sempre que dizer o Tipo que vai retornar, se for mais que 1 tipo coloque entre parenteses.
 
-- operadores : https://www.geeksforgeeks.org/go-operators/
+- operadores : https:/www.geeksforgeeks.org/go-operators/
 
 - convencao: nome pastas : minusculo - separacao nome compostos por handerline -
 
