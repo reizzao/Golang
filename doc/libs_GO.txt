@@ -1,0 +1,6 @@
+
+Tempo :
+criar_tempo_para_executar : time.Sleep(time.Second * 3) // importe a lib: time // o time.Second quer dizer 1 segundo então to definindo ele vezes 3 entao seu valor sera 3 segundos apra esta funcao.
+
+
+---
