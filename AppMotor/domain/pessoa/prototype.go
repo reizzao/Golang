@@ -1,4 +1,4 @@
-package master_pessoa
+package pessoa
 
 import "fmt"
 

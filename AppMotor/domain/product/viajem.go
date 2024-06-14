@@ -1,16 +1,13 @@
-package by_client
+package product
 
-import (
-	"github.com/rzjprogramador/base_golang/AppMotor/domain/pessoa/components_pessoa"
-	"github.com/rzjprogramador/base_golang/AppMotor/domain/product/use_product"
-)
+import "github.com/rzjprogramador/base_golang/AppMotor/domain/pessoa"
 
 type Viajem struct {
 	Embarque          EmbarqueDesembarque
 	Dembarque         EmbarqueDesembarque
-	Passageiro        components_pessoa.Passageiro
-	MotoristaParceiro components_pessoa.MotoristaParceiro
-	ValorViajem       use_product.ValueViajem
+	Passageiro        pessoa.Passageiro
+	MotoristaParceiro pessoa.MotoristaParceiro
+	ValorViajem       ValueViajem
 }
 
 type EmbarqueDesembarque struct {
@@ -18,6 +15,10 @@ type EmbarqueDesembarque struct {
 	Km_inicio      Km
 	Km_Final       Km
 	EnderecoFinal  Endereco
+}
+
+type ValueViajem struct {
+	Value float64
 }
 
 type Endereco struct {

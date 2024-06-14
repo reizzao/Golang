@@ -1,8 +1,6 @@
-package master_pessoa
+package pessoa
 
-import (
-	"github.com/rzjprogramador/base_golang/AppMotor/domain/pessoa/tools_pessoa/veiculo"
-)
+import "github.com/rzjprogramador/base_golang/AppMotor/domain/veiculo"
 
 type Pessoa struct {
 	ID        string           `json: id`
