@@ -7,11 +7,12 @@ import (
 	"github.com/rzjprogramador/base_golang/AppMotor/external/use_rzlibs"
 )
 
-func MainTesterPessoa() {
+func TesterPessoa() {
 	fmt.Println(
-		use_rzlibs.UseConvertObjectInJson(seed.Pessoa1Seed), "\n", "\n",
-		seed.Pessoa1Seed.Andou(), "\n", "\n",
-		seed.Pessoa1Seed.Veiculo.Buzina(), "\n", "\n",
-		seed.Pessoa2Seed.Veiculo.Buzina(), "\n", "\n",
+		use_rzlibs.UseConvertObjectInJson(seed.Pessoa1Seed),
+		// prototypes - computados
+		seed.Pessoa1Seed.NomeCompleto(),
+		seed.Pessoa2Seed.NomeCompleto(),
 	)
+
 }

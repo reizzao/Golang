@@ -2,6 +2,7 @@ package product
 
 import "github.com/rzjprogramador/base_golang/AppMotor/domain/pessoa"
 
+// main
 type Viajem struct {
 	Embarque          EmbarqueDesembarque
 	Dembarque         EmbarqueDesembarque
@@ -10,6 +11,7 @@ type Viajem struct {
 	ValorViajem       ValueViajem
 }
 
+// components
 type EmbarqueDesembarque struct {
 	EnderecoInicio Endereco
 	Km_inicio      Km

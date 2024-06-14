@@ -8,11 +8,14 @@ import (
 )
 
 func main() {
-	fmt.Println("Estou no Main Root inicial")
+	fmt.Println(" ========= Main do AppMotor ========= .")
 
-	// testers s
-	tester.MainTesterPessoa()
+	fmt.Println(" ------- VEICULO ------- ")
+	tester.TesterVeiculo()
 
-	// testers libs
+	fmt.Println(" ------- PESSOA ------- ")
+	tester.TesterPessoa()
+
+	fmt.Println(" ------- LIBS_TESTER ------- ")
 	fmt.Println(use_rzlibs.UseSoma(2, 2))
 }

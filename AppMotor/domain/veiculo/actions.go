@@ -2,13 +2,12 @@ package veiculo
 
 import "fmt"
 
-type Moto struct {
-	ID         string
-	Fabricante string
-	Modelo     string
-	Ano        int
+// carro
+func (c *Carro) Buzina() string {
+	return fmt.Sprint("buzinou com o CARRO ... >>", c.ID)
 }
 
+// moto
 func (m *Moto) Buzina() string {
 	return fmt.Sprint("buzinou com a MOTO ... >> ", m.ID)
 }
