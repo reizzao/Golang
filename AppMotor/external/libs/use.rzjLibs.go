@@ -1,4 +1,4 @@
-package use_rzlibs
+package libs
 
 import (
 	"github.com/rzjprogramador/RzLibs_GO/convert"

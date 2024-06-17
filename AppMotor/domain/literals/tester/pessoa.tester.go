@@ -3,16 +3,16 @@ package tester
 import (
 	"fmt"
 
-	seed "github.com/rzjprogramador/base_golang/AppMotor/domain/literals/seed"
-	"github.com/rzjprogramador/base_golang/AppMotor/external/use_rzlibs"
+	"github.com/rzjprogramador/base_golang/AppMotor/domain/pessoa"
+	"github.com/rzjprogramador/base_golang/AppMotor/external/libs"
 )
 
 func TesterPessoa() {
 	fmt.Println(
-		use_rzlibs.UseConvertObjectInJson(seed.Pessoa1Seed),
+		libs.UseConvertObjectInJson(pessoa.Pessoa1Seed),
 		// prototypes - computados
-		seed.Pessoa1Seed.NomeCompleto(),
-		seed.Pessoa2Seed.NomeCompleto(),
+		pessoa.Pessoa1Seed.NomeCompleto(),
+		pessoa.Pessoa2Seed.NomeCompleto(),
 	)
 
 }

@@ -1,10 +1,5 @@
 package loop
 
-import (
-	"fmt"
-	"time"
-)
-
 func For_Loop_Base() int {
 	i := 0 // valor
 
@@ -14,36 +9,6 @@ func For_Loop_Base() int {
 	}
 
 	return i
-}
-
-func Loop_Infinito() string {
-	for {
-		time.Sleep(time.Second * 2)
-		fmt.Println("oi")
-	}
-}
-
-func Loop_For_Contador_Na_Mesma_Linha() {
-	// na mesma linha : valor; condicao; mudarValor-Pra_mudar_a_condicao
-
-	for j := 0; j < 10; j++ {
-		time.Sleep(time.Second)
-		fmt.Println(j)
-	}
-
-}
-
-func Loop_Em_Array_Com_Range() string{
-	arrayNomes := []string{"Rei", "Guga", "Leo"}
-	vazio := ""
-
-	for _, valores := range arrayNomes {
-		fmt.Println(valores)
-		vazio += fmt.Sprint(" -- ", valores)
-	}
-
-	return vazio
-
 }
 
 /*

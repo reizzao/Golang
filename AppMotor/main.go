@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/rzjprogramador/base_golang/AppMotor/domain/literals/tester"
-	"github.com/rzjprogramador/base_golang/AppMotor/external/use_rzlibs"
+	"github.com/rzjprogramador/base_golang/AppMotor/external/libs"
 )
 
 func main() {
@@ -17,5 +17,5 @@ func main() {
 	tester.TesterPessoa()
 
 	fmt.Println(" ------- LIBS_TESTER ------- ")
-	fmt.Println(use_rzlibs.UseSoma(2, 2))
+	fmt.Println(libs.UseSoma(2, 2))
 }

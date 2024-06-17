@@ -3,14 +3,14 @@ package tester
 import (
 	"fmt"
 
-	seed "github.com/rzjprogramador/base_golang/AppMotor/domain/literals/seed"
+	"github.com/rzjprogramador/base_golang/AppMotor/domain/pessoa"
 )
 
 func TesterVeiculo() {
 	fmt.Println(
-		seed.Pessoa1Seed.Andou(),
-		seed.Pessoa2Seed.Andou(),
-		seed.Pessoa1Seed.Veiculo.Buzina(),
-		seed.Pessoa2Seed.Veiculo.Buzina(),
+		pessoa.Pessoa1Seed.Andou(),
+		pessoa.Pessoa2Seed.Andou(),
+		pessoa.Pessoa1Seed.Veiculo.Buzina(),
+		pessoa.Pessoa2Seed.Veiculo.Buzina(),
 	)
 }
