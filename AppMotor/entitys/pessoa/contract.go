@@ -1,6 +1,6 @@
 package pessoa
 
-import "github.com/rzjprogramador/base_golang/AppMotor/domain/veiculo"
+import "github.com/rzjprogramador/base_golang/AppMotor/entitys/veiculo"
 
 // main
 type Pessoa struct {

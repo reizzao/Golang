@@ -1,9 +1,9 @@
-package tester
+package testers
 
 import (
 	"fmt"
 
-	"github.com/rzjprogramador/base_golang/AppMotor/domain/pessoa"
+	"github.com/rzjprogramador/base_golang/AppMotor/entitys/pessoa"
 )
 
 func TesterVeiculo() {
