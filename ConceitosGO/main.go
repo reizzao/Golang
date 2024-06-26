@@ -1,14 +1,14 @@
-package main
+package ConceitosGO
 
 import (
 	"fmt"
 
-	"github.com/rzjprogramador/base_golang/ConceitosGO/condicionais"
+	"github.com/rzjprogramador/base_golang/ConceitosGO/ferramentas_para_funcoes/condicionais"
 	funcao "github.com/rzjprogramador/base_golang/ConceitosGO/funcoes"
-	"github.com/rzjprogramador/base_golang/ConceitosGO/loop"
+	"github.com/rzjprogramador/base_golang/ConceitosGO/ferramentas_para_funcoes/loop"
 )
 
-func main() {
+func StartConceitoGO() {
 	fmt.Println("===== Estou na main do ConceitosGO =====")
 
 	fmt.Println("===== LOOP FOR =====")
