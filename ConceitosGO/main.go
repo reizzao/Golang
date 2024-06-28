@@ -4,8 +4,9 @@ import (
 	"fmt"
 
 	"github.com/rzjprogramador/base_golang/ConceitosGO/ferramentas_para_funcoes/condicionais"
-	funcao "github.com/rzjprogramador/base_golang/ConceitosGO/funcoes"
 	"github.com/rzjprogramador/base_golang/ConceitosGO/ferramentas_para_funcoes/loop"
+	funcao "github.com/rzjprogramador/base_golang/ConceitosGO/funcoes"
+	"github.com/rzjprogramador/base_golang/ConceitosGO/valor"
 )
 
 func StartConceitoGO() {
@@ -25,4 +26,6 @@ func StartConceitoGO() {
 
 	fmt.Println("===== SELECT =====")
 	condicionais.UseSelect()
+
+	valor.IndexValor()
 }
