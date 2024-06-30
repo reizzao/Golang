@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func valorSingular() {
+func Variavel_Tipo_ValorRepresentacao() {
 	numero_Inteiro := 10
 	texto_Conjunto_de_Caracteres := "Sou um texto"
 	logico := true

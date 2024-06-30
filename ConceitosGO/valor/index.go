@@ -1,5 +1,5 @@
 package valor
 
 func IndexValor() {
-	valorSingular()
+	Variavel_Tipo_ValorRepresentacao()
 }
