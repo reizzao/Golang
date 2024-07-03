@@ -3,6 +3,7 @@ package ConceitosGO
 import (
 	"fmt"
 
+	"github.com/rzjprogramador/base_golang/ConceitosGO/algoritmos"
 	"github.com/rzjprogramador/base_golang/ConceitosGO/ferramentas_para_funcoes/condicionais"
 	"github.com/rzjprogramador/base_golang/ConceitosGO/ferramentas_para_funcoes/loop"
 	funcao "github.com/rzjprogramador/base_golang/ConceitosGO/funcoes"
@@ -28,4 +29,6 @@ func StartConceitoGO() {
 	condicionais.UseSelect()
 
 	valor.IndexValor()
+
+	fmt.Println(algoritmos.EditandoObjetoDeConfiguracao())
 }
