@@ -12,7 +12,7 @@ implementacoes :
 rodar_arquivo_no_console : go run ARQUIVO.go
 
 comandos_test:
-- rodar todos etsts apartir da raiz : go test ./...
+- rodar todos etsts apartir da raiz : go test ./... ou o criado no bash : `GoTest`
 - especifico: go test <ENDERECO DO ARQUIVO>
 - na_pasta: obs: vá pelo terminal até a pasta do arquivo e test e rode: go test
 
