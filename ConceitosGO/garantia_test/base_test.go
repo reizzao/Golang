@@ -12,10 +12,11 @@ func funcaoalvo() int {
 
 func TestPessoa(t *testing.T) {
 	sut := funcaoalvo()
+	esperado := resultado_certo
 	comparando_com_resultado_certo := 1000
 
 	if sut != comparando_com_resultado_certo {
-		t.Error("Ops... Esperado: ", sut, "Tentativa: ", comparando_com_resultado_certo)
+		t.Error("Ops... Esperado: ", esperado, "Tentativa: ", comparando_com_resultado_certo)
 	}
 
 	// Mais tests
