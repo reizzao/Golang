@@ -8,6 +8,7 @@ import "github.com/rzjprogramador/base_golang/ConceitosGO/valor"
 func main() {
 	// ConceitosGO.StartConceitoGO()
 	// recursosLinguagem.Tester_RecursosLinguagem()
-	valor.Tester_Array()
+	// valor.Tester_Array()
+	valor.Tester_valorDefault_Hardcode()
 
 }
