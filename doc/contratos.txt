@@ -4,4 +4,6 @@ e cada estrutura que vai querer ser contrato tera que implementar TER o metodo d
 
 Nome_de_metodos: importante para o metodo ser publico na interface inicie tambem o nome do metodo com LetraMaiuscula #naoErre
 
+Metodo ou interface : Escolher Metodo quando quér que o objeto tenha acoes de nomes diferentes, e interface quando quando quer que objetos diferentes tenham acoes de nomes iguais
+
 ---
