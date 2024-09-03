@@ -4,23 +4,36 @@ import (
 	"testing"
 )
 
-var resultado_certo = 1000
-
-func funcaoalvo() int {
-	return resultado_certo
+func Import_Sut_FuncaoUseCase_Target(i ResInput1) ResSut {
+	return i
 }
 
-func TestPessoa(t *testing.T) {
-	sut := funcaoalvo()
-	esperado := resultado_certo
-	comparando_com_resultado_certo := 1000
+type ResSut = int
+type ResInput1 = int
 
-	if sut != comparando_com_resultado_certo {
-		t.Error("Ops... Esperado: ", esperado, "Tentativa: ", comparando_com_resultado_certo)
+var auxImport_InputTester ResInput1 = 1000
+
+var sut ResSut = Import_Sut_FuncaoUseCase_Target(auxImport_InputTester)
+
+func Test_Entity(t *testing.T) {
+	expect := sut
+	var compare ResSut = 1000
+
+	/* -- Suites -- */
+
+	// Test Request - deve retornar tardeDemais no campo Request
+	if sut != compare {
+		t.Error("\n ************************\n Ops... Esperado: ", expect, "Tentativa: ", compare, "\n ************************\n")
 	}
-
-	// Mais tests
-	// if testado != 9 {
-	// 	t.Error("Ops...")
-	// }
 }
+
+/*
+Test fluxo
+	   - crie o tipo do response do sut : ex: ResSut = tipo
+	   - crie a var auxiliar global no test , chamada sut , para ser a funcionalidade principal a ser testada no test.
+	   - crie suite de test conforme pede a linguagem : em golang tem que comecar com Test_NOmeEntidade( e receber parametro da lib de test ex: t *testing.T )
+	   - dentro crie a varAuxiliar expect que sera o resultado esperado no test,
+	   - e tambem a varAuxiliar compare que sera o resultado que voce queira comparar com o resultado do sut,
+	   - faça a condicional usando operadores logicos para definir o que fazer comparando sut e o que voce quer comparar
+	   - por consequencia lance um erro da linguagem usando o parametro de test , para caso nao seja o esperado exploda um erro parando o test.
+*/
