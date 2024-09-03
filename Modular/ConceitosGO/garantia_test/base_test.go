@@ -25,14 +25,14 @@ var auxImport_InputTester ResInput1 = 1000
 var sut ResSut = Import_Sut_FuncaoUseCase_Target(auxImport_InputTester)
 
 func Test_Entity(t *testing.T) {
-	expect := sut
-	var compare ResSut = 1000
+	expect_request := sut
+	var compare_request ResSut = 1000
 
 	/* -- Suites -- */
 
 	// SUITE :: TARGET: Test #TODO - TITULO: deve retornar #TODO
-	if sut != compare {
-		t.Error(MessageErrorTest(), expect, compare)
+	if sut != compare_request {
+		t.Error(MessageErrorTest(), expect_request, compare_request)
 	}
 }
 
