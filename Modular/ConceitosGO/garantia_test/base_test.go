@@ -30,7 +30,7 @@ func Test_Entity(t *testing.T) {
 
 	/* -- Suites -- */
 
-	// Suite Test Request - titulo: deve retornar tardeDemais no campo Request
+	// SUITE :: TARGET: Test #TODO - TITULO: deve retornar #TODO
 	if sut != compare {
 		t.Error(MessageErrorTest(), expect, compare)
 	}
