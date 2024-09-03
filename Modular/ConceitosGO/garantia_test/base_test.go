@@ -4,9 +4,18 @@ import (
 	"testing"
 )
 
+// Imports
+// libs
+func MessageErrorTest() string {
+	return "\n ***********RESPONSE TEST *************\n Ops... Esperado: %t --> Tentativa: %t \n*********** FINAL RESPONSE TEST ************* "
+}
+
+// funcao Sut
 func Import_Sut_FuncaoUseCase_Target(i ResInput1) ResSut {
 	return i
 }
+
+//
 
 type ResSut = int
 type ResInput1 = int
@@ -21,9 +30,9 @@ func Test_Entity(t *testing.T) {
 
 	/* -- Suites -- */
 
-	// Test Request - deve retornar tardeDemais no campo Request
+	// Suite Test Request - titulo: deve retornar tardeDemais no campo Request
 	if sut != compare {
-		t.Error("\n ************************\n Ops... Esperado: ", expect, "Tentativa: ", compare, "\n ************************\n")
+		t.Error(MessageErrorTest(), expect, compare)
 	}
 }
 
