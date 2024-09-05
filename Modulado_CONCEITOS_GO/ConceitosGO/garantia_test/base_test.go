@@ -19,6 +19,8 @@ func funcaoTarget(i int) ResFuncTarget { return i }
 
 //
 
+// USE OFICIAL NO TEST
+
 type ResSut = ResFuncTarget
 
 var (
