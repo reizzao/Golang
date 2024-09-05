@@ -1,9 +1,9 @@
 package main
 
-import "github.com/rzjprogramador/base_golang/ConceitosGO/valor"
+import "github.com/reizzao/base_golang/ConceitosGO/valor"
 
-// "github.com/rzjprogramador/base_golang/ConceitosGO"
-// "github.com/rzjprogramador/base_golang/ConceitosGO/recursosLinguagem"
+// "github.com/reizzao/base_golang/ConceitosGO"
+// "github.com/reizzao/base_golang/ConceitosGO/recursosLinguagem"
 
 func main() {
 	// ConceitosGO.StartConceitoGO()

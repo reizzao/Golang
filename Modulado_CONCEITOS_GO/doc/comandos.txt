@@ -1,5 +1,5 @@
 
-criar_modularizacao: go mod init github.com/rzjprogramador/minhaLib
+criar_modularizacao: go mod init github.com/reizzao/minhaLib
 producao:
 criar_binario_de_distribuicao: go build
 

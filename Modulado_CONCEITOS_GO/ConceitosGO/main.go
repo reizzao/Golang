@@ -3,11 +3,11 @@ package ConceitosGO
 import (
 	"fmt"
 
-	"github.com/rzjprogramador/base_golang/ConceitosGO/algoritmos"
-	"github.com/rzjprogramador/base_golang/ConceitosGO/ferramentas_para_funcoes/condicionais"
-	"github.com/rzjprogramador/base_golang/ConceitosGO/ferramentas_para_funcoes/loop"
-	funcao "github.com/rzjprogramador/base_golang/ConceitosGO/acoes"
-	"github.com/rzjprogramador/base_golang/ConceitosGO/valor"
+	funcao "github.com/reizzao/base_golang/ConceitosGO/acoes"
+	"github.com/reizzao/base_golang/ConceitosGO/algoritmos"
+	"github.com/reizzao/base_golang/ConceitosGO/ferramentas_para_funcoes/condicionais"
+	"github.com/reizzao/base_golang/ConceitosGO/ferramentas_para_funcoes/loop"
+	"github.com/reizzao/base_golang/ConceitosGO/valor"
 )
 
 func StartConceitoGO() {

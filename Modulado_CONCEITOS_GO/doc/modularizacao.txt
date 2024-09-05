@@ -1,4 +1,4 @@
-modulo_principal: crie o modulo exatamente como esta no github, exemplo: github.com/rzjprogramador/projeto
+modulo_principal: crie o modulo exatamente como esta no github, exemplo: github.com/reizzao/projeto
 
 importar_dentro_do_mesmo_pacote: variaveis dentro do mesmo package nao precisa de importacao nem do objetoPai.Filho - pode-se chamar direto a VariavelPublica > é coo se o package do arquivo ja importa-se o objetoPai.
 
