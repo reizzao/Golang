@@ -2,38 +2,41 @@ package garantia_test
 
 import (
 	"testing"
+
+	bt "github.com/reizzao/RzLibs_GO/message"
 )
 
-// Imports
-// libs
-func MessageErrorTest() string {
-	return "\n ***********RESPONSE TEST *************\n Ops... Esperado: %t --> Tentativa: %t \n*********** FINAL RESPONSE TEST ************* "
-}
+// NO PROJETO REAL SERÃO IMPORTADOS
+// CRIAR PARA ESTE O ARQUIVO REEXPORTADOS DE LIBS EXTERNAS / exemplo: lib/messages.go
+var (
+	MessageErrorTest func(compare any, expect any) string = bt.MessageErrorTestLIB
+	// lib                                                   = MessageErrorTest
+)
 
-// funcao Sut
-func Import_Sut_FuncaoUseCase_Target(i ResInput1) ResSut {
-	return i
-}
+type ResFuncTarget = int
+
+func funcaoTarget(i int) ResFuncTarget { return i }
 
 //
 
-type ResSut = int
-type ResInput1 = int
+type ResSut = ResFuncTarget
 
-var auxImport_InputTester ResInput1 = 1000
-
-var sut ResSut = Import_Sut_FuncaoUseCase_Target(auxImport_InputTester)
+var (
+	sut        ResSut = funcaoTarget(10)
+	inputTest1        = 10
+)
 
 func Test_Entity(t *testing.T) {
-	expect_request := sut
-	var compare_request ResSut = 1000
+	expected_request_ := sut
+	compare_request_ := inputTest1
 
 	/* -- Suites -- */
 
-	// SUITE :: TARGET: Test #TODO - TITULO: deve retornar #TODO
-	if sut != compare_request {
-		t.Error(MessageErrorTest(), expect_request, compare_request)
+	// Test: [ TODO_NameTest] : deve retornar TODO { TODO }
+	if sut != compare_request_ {
+		t.Error(MessageErrorTest(expected_request_, compare_request_))
 	}
+
 }
 
 /*
