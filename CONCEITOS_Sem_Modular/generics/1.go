@@ -2,15 +2,15 @@ package main
 
 import "fmt"
 
-type INumber interface {
+type IGeneric interface {
 	int | float64
 }
 
-type Model[T INumber | string | any] struct {
+type Model[T IGeneric | string | any] struct {
 	Data T
 }
 
-func SomaGenerica[T INumber](i T) T {
+func SomaGenerica[T IGeneric](i T) T {
 	var res T = i + 1
 	return res
 }
