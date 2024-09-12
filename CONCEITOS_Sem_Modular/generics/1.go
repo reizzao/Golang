@@ -40,6 +40,6 @@ Declaracao_no_uso: em funcoes antes dos parenteses de params colocar colchetes d
 
 Generics em estruturas , para que uma das propriedades seja de um tipo ou de outro
 voce tipa os tipos possiveis dentro de colchetes apos o nome da estrutura, e na prop voce da o tipo de valor com a variavel que escolheu pra ser o tipo generico de valor ex: type Model[T INumber | string | any] struct{ Data T }
-no uso em funcoes:
+no uso em funcoes: em funcoes por enquanto defino qual o tipo somente chamando a generica estrutura dentro da funcao e ali defino qual o tipo a ser usado entre os ja marcados. #todo: ainda nao to consequindo definir o tipo na declaracao da funcao repassando variavel pra outras variaveis genericas, mas da pra usar assim tipando dentro da funcao.
 
 */
