@@ -2,22 +2,22 @@ package main
 
 import "fmt"
 
-type IGeneric interface {
+type Igeneric interface {
 	int | float64
 }
 
-type Model[T IGeneric | string | any] struct {
+type IGeneric_em_Estruturas[T Igeneric | string | any] struct {
 	Data T
 }
 
-func SomaGenerica[T IGeneric](i T) T {
+func SomaGenerica[T Igeneric](i T) T {
 	var res T = i + 1
 	return res
 }
 
 func GenericEmEstruturas() {
-	numeros := Model[int]{Data: 10}
-	textos := Model[string]{Data: "Foo"}
+	numeros := IGeneric_em_Estruturas[int]{Data: 10}
+	textos := IGeneric_em_Estruturas[string]{Data: "Foo"}
 
 	fmt.Println(numeros.Data) // [1 2 3]
 	fmt.Println(textos.Data)  // [1 2 3]
